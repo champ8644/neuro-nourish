@@ -43,7 +43,7 @@
     {
       "foodItem": "Chicken Caesar Wrap",
       "mealImageUrl": "https://www.seriouseats.com/thmb/2hfLSY0MwU_Q1apAQEpbB4xjDt8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2021-08-chicken-caesar-wrap-vicky-wasik-14-500a333c0d67453e9dc6a3af12a6e0cd.jpg",
-      "imageAnalysis": {g
+      "imageAnalysis": {
         "detectedItems": [
           { "name": "Chicken", "confidence": 0.92 },
           { "name": "Caesar Dressing", "confidence": 0.85 },
