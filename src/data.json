@@ -1,0 +1,406 @@
+{
+  "mealAnalyses": [
+    {
+      "foodItem": "Grilled Salmon with Quinoa Salad",
+      "mealImageUrl": "https://www.jessicagavin.com/wp-content/uploads/2016/02/mediterranean-spiced-salmon-over-vegetable-quinoa.jpg",
+      "imageAnalysis": {
+        "detectedItems": [
+          { "name": "Grilled Salmon", "confidence": 0.95 },
+          { "name": "Quinoa (cooked)", "confidence": 0.88 },
+          { "name": "Spinach Salad", "confidence": 0.9 }
+        ]
+      },
+      "nutritionalFacts": {
+        "calories": 480,
+        "macronutrients": { "protein": 28, "carbohydrates": 42, "fats": 18 },
+        "fiber": 8,
+        "antioxidants": {
+          "level": "Moderate",
+          "sourceItems": ["Spinach", "Quinoa"]
+        },
+        "omega3FattyAcids": 1500,
+        "vitaminB12": 5.2,
+        "vitaminD": 12,
+        "magnesium": 150
+      },
+      "medicationInteraction": {
+        "levodopa": {
+          "proteinImpact": "Moderate",
+          "recommendation": "High protein content may interfere with levodopa absorption. Take levodopa 30–45 minutes before this meal or schedule this meal later."
+        }
+      },
+      "dietaryPatterns": { "Mediterranean": true, "MIND": true, "DASH": false },
+      "scores": {
+        "pdFoodScore": { "pdFoodScore": 85, "malnutritionRiskScore": 10 },
+        "additionalProperties": {
+          "gutHealthScore": 8,
+          "glycemicIndexScore": 8,
+          "micronutrientScore": 8
+        }
+      },
+      "overallRecommendations": "This meal provides a balanced macronutrient profile with beneficial antioxidants and omega-3s, aligning well with Mediterranean and MIND diets. Its moderate protein content suggests careful timing relative to levodopa dosing. Additionally, it supports gut health and provides key micronutrients."
+    },
+    {
+      "foodItem": "Chicken Caesar Wrap",
+      "mealImageUrl": "https://www.seriouseats.com/thmb/2hfLSY0MwU_Q1apAQEpbB4xjDt8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2021-08-chicken-caesar-wrap-vicky-wasik-14-500a333c0d67453e9dc6a3af12a6e0cd.jpg",
+      "imageAnalysis": {g
+        "detectedItems": [
+          { "name": "Chicken", "confidence": 0.92 },
+          { "name": "Caesar Dressing", "confidence": 0.85 },
+          { "name": "Tortilla Wrap", "confidence": 0.88 }
+        ]
+      },
+      "nutritionalFacts": {
+        "calories": 425,
+        "macronutrients": {
+          "protein": 28.3,
+          "carbohydrates": 37.7,
+          "fats": 18.9
+        },
+        "fiber": 2.8,
+        "antioxidants": {
+          "level": "Moderate",
+          "sourceItems": ["Romaine Lettuce"]
+        },
+        "omega3FattyAcids": 0,
+        "vitaminB12": 0.3,
+        "vitaminD": 0,
+        "magnesium": 50
+      },
+      "medicationInteraction": {
+        "levodopa": {
+          "proteinImpact": "High",
+          "recommendation": "High protein may interfere with levodopa absorption. Consider timing your medication appropriately."
+        }
+      },
+      "dietaryPatterns": {
+        "Mediterranean": false,
+        "MIND": false,
+        "DASH": true
+      },
+      "scores": {
+        "pdFoodScore": { "pdFoodScore": 70, "malnutritionRiskScore": 20 },
+        "additionalProperties": {
+          "gutHealthScore": 6,
+          "glycemicIndexScore": 7,
+          "micronutrientScore": 6
+        }
+      },
+      "overallRecommendations": "This wrap is higher in protein which may affect levodopa absorption. It is less aligned with Mediterranean and MIND diets but fits DASH guidelines."
+    },
+    {
+      "foodItem": "Avocado Toast with Eggs",
+      "mealImageUrl": "https://images.unsplash.com/photo-1559622217-1e7e8ed90d0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "imageAnalysis": {
+        "detectedItems": [
+          { "name": "Avocado", "confidence": 0.93 },
+          { "name": "Toast", "confidence": 0.9 },
+          { "name": "Eggs", "confidence": 0.88 }
+        ]
+      },
+      "nutritionalFacts": {
+        "calories": 350,
+        "macronutrients": { "protein": 13, "carbohydrates": 20, "fats": 20 },
+        "fiber": 8,
+        "antioxidants": {
+          "level": "Moderate",
+          "sourceItems": ["Avocado", "Whole Grain Bread"]
+        },
+        "omega3FattyAcids": 0,
+        "vitaminB12": 0.6,
+        "vitaminD": 2.0,
+        "magnesium": 60
+      },
+      "medicationInteraction": {
+        "levodopa": {
+          "proteinImpact": "Low",
+          "recommendation": "Moderate protein levels; suitable for most medication schedules."
+        }
+      },
+      "dietaryPatterns": { "Mediterranean": true, "MIND": true, "DASH": true },
+      "scores": {
+        "pdFoodScore": { "pdFoodScore": 80, "malnutritionRiskScore": 15 },
+        "additionalProperties": {
+          "gutHealthScore": 9,
+          "glycemicIndexScore": 9,
+          "micronutrientScore": 7
+        }
+      },
+      "overallRecommendations": "A nutrient-dense meal with high fiber and antioxidants, fitting well within Mediterranean, MIND, and DASH diets."
+    },
+    {
+      "foodItem": "Turkey and Veggie Stir-fry",
+      "mealImageUrl": "https://images.unsplash.com/photo-1607013255109-7eea32ed4c0f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "imageAnalysis": {
+        "detectedItems": [
+          { "name": "Turkey", "confidence": 0.93 },
+          { "name": "Mixed Vegetables", "confidence": 0.9 }
+        ]
+      },
+      "nutritionalFacts": {
+        "calories": 293,
+        "macronutrients": { "protein": 37, "carbohydrates": 21, "fats": 6 },
+        "fiber": 6,
+        "antioxidants": {
+          "level": "High",
+          "sourceItems": ["Mixed Vegetables"]
+        },
+        "omega3FattyAcids": 0,
+        "vitaminB12": 0.9,
+        "vitaminD": 0,
+        "magnesium": 68
+      },
+      "medicationInteraction": {
+        "levodopa": {
+          "proteinImpact": "High",
+          "recommendation": "High protein may reduce levodopa efficacy. Consider separating medication from this meal."
+        }
+      },
+      "dietaryPatterns": { "Mediterranean": true, "MIND": true, "DASH": true },
+      "scores": {
+        "pdFoodScore": { "pdFoodScore": 78, "malnutritionRiskScore": 12 },
+        "additionalProperties": {
+          "gutHealthScore": 8,
+          "glycemicIndexScore": 8,
+          "micronutrientScore": 7
+        }
+      },
+      "overallRecommendations": "A balanced stir-fry with lean protein and vegetables; protein levels require mindful timing."
+    },
+    {
+      "foodItem": "Mediterranean Lentil Soup",
+      "mealImageUrl": "https://images.unsplash.com/photo-1572448862520-d38a7d03aa10?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "imageAnalysis": {
+        "detectedItems": [
+          { "name": "Lentils", "confidence": 0.92 },
+          { "name": "Tomatoes", "confidence": 0.87 },
+          { "name": "Herbs", "confidence": 0.85 }
+        ]
+      },
+      "nutritionalFacts": {
+        "calories": 238,
+        "macronutrients": { "protein": 13, "carbohydrates": 43, "fats": 3 },
+        "fiber": 12,
+        "antioxidants": {
+          "level": "High",
+          "sourceItems": ["Tomatoes", "Herbs"]
+        },
+        "omega3FattyAcids": 0,
+        "vitaminB12": 0,
+        "vitaminD": 0,
+        "magnesium": 70
+      },
+      "medicationInteraction": {
+        "levodopa": {
+          "proteinImpact": "Low",
+          "recommendation": "Low protein content; ideal for levodopa timing."
+        }
+      },
+      "dietaryPatterns": { "Mediterranean": true, "MIND": true, "DASH": true },
+      "scores": {
+        "pdFoodScore": { "pdFoodScore": 82, "malnutritionRiskScore": 8 },
+        "additionalProperties": {
+          "gutHealthScore": 10,
+          "glycemicIndexScore": 9,
+          "micronutrientScore": 6
+        }
+      },
+      "overallRecommendations": "Rich in fiber and antioxidants, this soup is excellent for gut health and aligns well with Mediterranean and MIND diets."
+    },
+    {
+      "foodItem": "Grilled Shrimp Tacos with Mango Salsa",
+      "mealImageUrl": "https://images.unsplash.com/photo-1614285618053-ecc92efb5a45?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "imageAnalysis": {
+        "detectedItems": [
+          { "name": "Shrimp", "confidence": 0.93 },
+          { "name": "Tortillas", "confidence": 0.88 },
+          { "name": "Mango Salsa", "confidence": 0.9 }
+        ]
+      },
+      "nutritionalFacts": {
+        "calories": 400,
+        "macronutrients": { "protein": 25, "carbohydrates": 40, "fats": 12 },
+        "fiber": 5,
+        "antioxidants": {
+          "level": "High",
+          "sourceItems": ["Mango", "Cilantro"]
+        },
+        "omega3FattyAcids": 500,
+        "vitaminB12": 1.4,
+        "vitaminD": 3.2,
+        "magnesium": 80
+      },
+      "medicationInteraction": {
+        "levodopa": {
+          "proteinImpact": "High",
+          "recommendation": "High protein content may interfere with levodopa. Adjust medication timing if necessary."
+        }
+      },
+      "dietaryPatterns": { "Mediterranean": true, "MIND": false, "DASH": true },
+      "scores": {
+        "pdFoodScore": { "pdFoodScore": 80, "malnutritionRiskScore": 12 },
+        "additionalProperties": {
+          "gutHealthScore": 7,
+          "glycemicIndexScore": 7,
+          "micronutrientScore": 7
+        }
+      },
+      "overallRecommendations": "A flavorful meal with lean protein and tropical fruits; moderate protein requires careful timing relative to levodopa dosing."
+    },
+    {
+      "foodItem": "Veggie Burger with Sweet Potato Fries",
+      "mealImageUrl": "https://images.unsplash.com/photo-1617191519907-c3cf64d4e76b?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "imageAnalysis": {
+        "detectedItems": [
+          { "name": "Veggie Burger", "confidence": 0.9 },
+          { "name": "Sweet Potato Fries", "confidence": 0.92 }
+        ]
+      },
+      "nutritionalFacts": {
+        "calories": 450,
+        "macronutrients": { "protein": 15, "carbohydrates": 60, "fats": 15 },
+        "fiber": 10,
+        "antioxidants": {
+          "level": "High",
+          "sourceItems": ["Sweet Potato", "Veggie Patty"]
+        },
+        "omega3FattyAcids": 0,
+        "vitaminB12": 0,
+        "vitaminD": 0,
+        "magnesium": 100
+      },
+      "medicationInteraction": {
+        "levodopa": {
+          "proteinImpact": "Low",
+          "recommendation": "Low protein meal; minimal interference with levodopa."
+        }
+      },
+      "dietaryPatterns": { "Mediterranean": true, "MIND": true, "DASH": true },
+      "scores": {
+        "pdFoodScore": { "pdFoodScore": 75, "malnutritionRiskScore": 15 },
+        "additionalProperties": {
+          "gutHealthScore": 9,
+          "glycemicIndexScore": 8,
+          "micronutrientScore": 5
+        }
+      },
+      "overallRecommendations": "This meal is high in fiber and antioxidants. Although plant-based and low in protein, ensure overall nutrient balance."
+    },
+    {
+      "foodItem": "Baked Cod with Roasted Vegetables",
+      "mealImageUrl": "https://images.unsplash.com/photo-1589187151305-c6c8f93c9a40?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "imageAnalysis": {
+        "detectedItems": [
+          { "name": "Baked Cod", "confidence": 0.94 },
+          { "name": "Roasted Vegetables", "confidence": 0.9 }
+        ]
+      },
+      "nutritionalFacts": {
+        "calories": 250,
+        "macronutrients": { "protein": 30, "carbohydrates": 15, "fats": 5 },
+        "fiber": 6,
+        "antioxidants": {
+          "level": "High",
+          "sourceItems": ["Zucchini", "Bell Peppers"]
+        },
+        "omega3FattyAcids": 200,
+        "vitaminB12": 2.1,
+        "vitaminD": 5,
+        "magnesium": 70
+      },
+      "medicationInteraction": {
+        "levodopa": {
+          "proteinImpact": "High",
+          "recommendation": "High protein (~30g) may hinder levodopa absorption; best to separate timing."
+        }
+      },
+      "dietaryPatterns": { "Mediterranean": true, "MIND": true, "DASH": true },
+      "scores": {
+        "pdFoodScore": { "pdFoodScore": 82, "malnutritionRiskScore": 10 },
+        "additionalProperties": {
+          "gutHealthScore": 8,
+          "glycemicIndexScore": 9,
+          "micronutrientScore": 7
+        }
+      },
+      "overallRecommendations": "A well-balanced meal with lean protein and vegetables, supporting Mediterranean, MIND, and DASH diets."
+    },
+    {
+      "foodItem": "Beef and Broccoli Rice Bowl",
+      "mealImageUrl": "https://images.unsplash.com/photo-1611605692609-c7b769b72489?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "imageAnalysis": {
+        "detectedItems": [
+          { "name": "Beef", "confidence": 0.92 },
+          { "name": "Broccoli", "confidence": 0.89 },
+          { "name": "Rice", "confidence": 0.87 }
+        ]
+      },
+      "nutritionalFacts": {
+        "calories": 560,
+        "macronutrients": { "protein": 30, "carbohydrates": 60, "fats": 20 },
+        "fiber": 5,
+        "antioxidants": { "level": "Moderate", "sourceItems": ["Broccoli"] },
+        "omega3FattyAcids": 0,
+        "vitaminB12": 1.5,
+        "vitaminD": 0,
+        "magnesium": 120
+      },
+      "medicationInteraction": {
+        "levodopa": {
+          "proteinImpact": "High",
+          "recommendation": "High protein may significantly reduce levodopa absorption; adjust medication timing."
+        }
+      },
+      "dietaryPatterns": {
+        "Mediterranean": false,
+        "MIND": false,
+        "DASH": true
+      },
+      "scores": {
+        "pdFoodScore": { "pdFoodScore": 70, "malnutritionRiskScore": 18 },
+        "additionalProperties": {
+          "gutHealthScore": 7,
+          "glycemicIndexScore": 7,
+          "micronutrientScore": 6
+        }
+      },
+      "overallRecommendations": "This protein-heavy meal may interfere with levodopa if taken at the wrong time; consider adjusting medication timing."
+    },
+    {
+      "foodItem": "Mixed Berry Smoothie Bowl",
+      "mealImageUrl": "https://images.unsplash.com/photo-1514516872499-4c0b3a9b639b?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "imageAnalysis": {
+        "detectedItems": [
+          { "name": "Mixed Berries", "confidence": 0.93 },
+          { "name": "Almond Milk", "confidence": 0.87 }
+        ]
+      },
+      "nutritionalFacts": {
+        "calories": 300,
+        "macronutrients": { "protein": 5, "carbohydrates": 60, "fats": 5 },
+        "fiber": 8,
+        "antioxidants": { "level": "High", "sourceItems": ["Mixed Berries"] },
+        "omega3FattyAcids": 0,
+        "vitaminB12": 0.5,
+        "vitaminD": 2,
+        "magnesium": 30
+      },
+      "medicationInteraction": {
+        "levodopa": {
+          "proteinImpact": "Low",
+          "recommendation": "Low protein content; minimal interference with levodopa."
+        }
+      },
+      "dietaryPatterns": { "Mediterranean": true, "MIND": true, "DASH": true },
+      "scores": {
+        "pdFoodScore": { "pdFoodScore": 78, "malnutritionRiskScore": 8 },
+        "additionalProperties": {
+          "gutHealthScore": 9,
+          "glycemicIndexScore": 9,
+          "micronutrientScore": 6
+        }
+      },
+      "overallRecommendations": "A nutrient-rich, antioxidant-packed meal ideal for brain health. Very low protein makes it ideal around levodopa dosing."
+    }
+  ]
+}
