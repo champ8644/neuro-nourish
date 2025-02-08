@@ -42,7 +42,7 @@
     },
     {
       "foodItem": "Chicken Caesar Wrap",
-      "mealImageUrl": "https://www.seriouseats.com/thmb/2hfLSY0MwU_Q1apAQEpbB4xjDt8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2021-08-chicken-caesar-wrap-vicky-wasik-14-500a333c0d67453e9dc6a3af12a6e0cd.jpg",
+      "mealImageUrl": "https://www.erinliveswhole.com/wp-content/uploads/2023/04/chicken-caesar-wraps-7-768x1152.jpg",
       "imageAnalysis": {
         "detectedItems": [
           { "name": "Chicken", "confidence": 0.92 },
@@ -90,7 +90,7 @@
     },
     {
       "foodItem": "Avocado Toast with Eggs",
-      "mealImageUrl": "https://images.unsplash.com/photo-1559622217-1e7e8ed90d0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "mealImageUrl": "https://www.allrecipes.com/thmb/mJJPeaKKj61DZ4kc_jHHVI3kmG8=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/AvocadoToastwithEggFranceC4x3-bb87e3bbf1944657b7db35f1383fabdb.jpg",
       "imageAnalysis": {
         "detectedItems": [
           { "name": "Avocado", "confidence": 0.93 },
@@ -130,7 +130,7 @@
     },
     {
       "foodItem": "Turkey and Veggie Stir-fry",
-      "mealImageUrl": "https://images.unsplash.com/photo-1607013255109-7eea32ed4c0f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "mealImageUrl": "https://healthyrecipesblogs.com/wp-content/uploads/2025/01/turkey-stir-fry-featured-2024.jpg",
       "imageAnalysis": {
         "detectedItems": [
           { "name": "Turkey", "confidence": 0.93 },
@@ -169,7 +169,7 @@
     },
     {
       "foodItem": "Mediterranean Lentil Soup",
-      "mealImageUrl": "https://images.unsplash.com/photo-1572448862520-d38a7d03aa10?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "mealImageUrl": "https://www.livinglou.com/wp-content/uploads/2020/04/mediterranean-lentil-soup.jpg",
       "imageAnalysis": {
         "detectedItems": [
           { "name": "Lentils", "confidence": 0.92 },
@@ -209,7 +209,7 @@
     },
     {
       "foodItem": "Grilled Shrimp Tacos with Mango Salsa",
-      "mealImageUrl": "https://images.unsplash.com/photo-1614285618053-ecc92efb5a45?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "mealImageUrl": "https://www.dinneratthezoo.com/wp-content/uploads/2015/08/shrimp-tacos-with-mango-salsa-5-680x1020.jpg",
       "imageAnalysis": {
         "detectedItems": [
           { "name": "Shrimp", "confidence": 0.93 },
@@ -249,7 +249,7 @@
     },
     {
       "foodItem": "Veggie Burger with Sweet Potato Fries",
-      "mealImageUrl": "https://images.unsplash.com/photo-1617191519907-c3cf64d4e76b?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "mealImageUrl": "https://reciperunner.com/wp-content/uploads/2016/06/Santa-Fe-Veggie-Burgers-with-Sweet-Potato-Fries-and-Chipotle-Ketchup3.jpg",
       "imageAnalysis": {
         "detectedItems": [
           { "name": "Veggie Burger", "confidence": 0.9 },
@@ -288,7 +288,7 @@
     },
     {
       "foodItem": "Baked Cod with Roasted Vegetables",
-      "mealImageUrl": "https://images.unsplash.com/photo-1589187151305-c6c8f93c9a40?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "mealImageUrl": "https://www.diabetes.org.uk/sites/default/files/styles/recipe_desktop/public/migration/recipes/Cod-With-Roasted-Winter-Veg.jpg?itok=UpNe3c_C",
       "imageAnalysis": {
         "detectedItems": [
           { "name": "Baked Cod", "confidence": 0.94 },
@@ -327,7 +327,7 @@
     },
     {
       "foodItem": "Beef and Broccoli Rice Bowl",
-      "mealImageUrl": "https://images.unsplash.com/photo-1611605692609-c7b769b72489?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "mealImageUrl": "https://www.skinnytaste.com/wp-content/uploads/2023/04/Ground-Beef-and-Broccoli-8.jpg",
       "imageAnalysis": {
         "detectedItems": [
           { "name": "Beef", "confidence": 0.92 },
@@ -368,7 +368,7 @@
     },
     {
       "foodItem": "Mixed Berry Smoothie Bowl",
-      "mealImageUrl": "https://images.unsplash.com/photo-1514516872499-4c0b3a9b639b?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "mealImageUrl": "https://theartoffoodandwine.com/wp-content/uploads/2022/04/smoothie-1.jpg",
       "imageAnalysis": {
         "detectedItems": [
           { "name": "Mixed Berries", "confidence": 0.93 },
